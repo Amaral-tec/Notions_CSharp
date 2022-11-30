@@ -73,6 +73,9 @@ namespace NotionsCSharp {
                 // Orientação a Objetos
                 {"Herança - Orientação a Objetos", Heranca.Executar},
                 {"Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
+                {"Encapsulamento - Orientação a Objetos", OrientacaoObjetos.Encapsulamento.Executar},
+                {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+                {"Abstract - Orientação a Objetos", Abstract.Executar},
             });
 
             central.SelecionarEExecutar();
