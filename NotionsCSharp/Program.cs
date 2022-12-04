@@ -6,6 +6,10 @@ using NotionsCSharp.EstruturasDeControle;
 using NotionsCSharp.ClassesEMetodos;
 using NotionsCSharp.Colecoes;
 using NotionsCSharp.OrientacaoObjetos;
+using NotionsCSharp.MetodosEFuncoes;
+using NotionsCSharp.Excecoes;
+using NotionsCSharp.API;
+using NotionsCSharp.Consultas;
 
 namespace NotionsCSharp {
     class Program {
@@ -41,7 +45,7 @@ namespace NotionsCSharp {
                 {"Usando Break - Estruturas de Controle", UsandoBreak.Executar},
                 {"Usando Continue - Estruturas de Controle", UsandoContinue.Executar},
 
-                // Classes e Métodos
+                // Classes & Métodos
                 {"Membros - Classes e Métodos", Membros.Executar},
                 {"Construtores - Classes e Métodos", Construtores.Executar},
                 {"Métodos com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
@@ -76,6 +80,37 @@ namespace NotionsCSharp {
                 {"Encapsulamento - Orientação a Objetos", OrientacaoObjetos.Encapsulamento.Executar},
                 {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
                 {"Abstract - Orientação a Objetos", Abstract.Executar},
+                {"Interface - Orientação a Objetos", Interface.Executar},
+                {"Sealed - Orientação a Objetos", Sealed.Executar},
+                
+                // Métodos & Funções
+                {"Lambda - Métodos e Funções", UsandoLambda.Executar},
+                {"Lambdas como Delegates - Métodos e Funções", LambdasDelegate.Executar},
+                {"Usando Delegates - Métodos e Funções", UsandoDelegates.Executar},
+                {"Delegate como Função Anônima - Métodos e Funções", DelegateFuncaoAnonima.Executar},
+                {"Delegate como Parâmetro - Métodos e Funções", DelegateComoParametro.Executar},
+                {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
+
+                // Exceções
+                {"Usando Exceções - Exceções", UsandoExcecoes.Executar},
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+                
+                // API
+                {"Criando um arquivo - API", CriandoArquivo.Executar},
+                {"Lendo um arquivo - API", LendoArquivo.Executar},
+                {"Usando FileInfo - API", UsandoFileInfo.Executar},
+                {"Diretórios - API", Diretorios.Executar},
+                {"Usando DirectoryInfo - API", UsandoDirectoryInfo.Executar},
+                {"Usando Path - API", UsandoPath.Executar},
+                {"Usando DataTime - API", UsandoDateTime.Executar},
+                {"Usando TimeSpan - API", UsandoTimeSpan.Executar},
+                
+                // Consultas               
+                {"LINQ - Consultas", LINQ.Executar},
+                {"Nullables - Consultas", Nullables.Executar},
+                {"Dynamics - Consultas", Dynamics.Executar},
+                {"Generics - Consultas", Genericos.Executar},
+
             });
 
             central.SelecionarEExecutar();

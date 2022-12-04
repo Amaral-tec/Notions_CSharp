@@ -13,7 +13,6 @@ namespace NotionsCSharp.OrientacaoObjetos {
         public string Tocar() {
             return "Trim";
         }
-
     }
 
     public class Samsung : Celular { 
