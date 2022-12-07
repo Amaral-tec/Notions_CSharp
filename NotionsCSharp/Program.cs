@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-using NotionsCSharp.Fundamentos;
+﻿using NotionsCSharp.Fundamentos;
 using NotionsCSharp.EstruturasDeControle;
 using NotionsCSharp.ClassesEMetodos;
 using NotionsCSharp.Colecoes;

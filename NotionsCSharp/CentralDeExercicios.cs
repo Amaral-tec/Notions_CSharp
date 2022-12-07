@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace NotionsCSharp {
     public class CentralDeExercicios {

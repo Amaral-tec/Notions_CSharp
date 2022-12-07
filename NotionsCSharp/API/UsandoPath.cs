@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 namespace NotionsCSharp.API {
     class UsandoPath {
