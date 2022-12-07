@@ -114,6 +114,7 @@ namespace NotionsCSharp {
             });
 
             central.SelecionarEExecutar();
+
         }
     }
 }
